@@ -31,8 +31,7 @@ body{margin:0;background:var(--xt-paper);color:var(--xt-ink);font-family:-apple-
 .xt-firmware__identity{display:flex;gap:12px;align-items:center}
 .xt-firmware__identity img{border-radius:6px;flex-shrink:0}
 .xt-firmware__identity h2{margin:0;font-size:26px;font-weight:650;line-height:1.2;letter-spacing:-.03em}
-.xt-firmware__byline{font-size:13px;color:var(--xt-muted);margin:8px 0 0;line-height:1.45}
-.xt-firmware__description{font-size:14px;line-height:1.5;margin:10px 0 9px;text-wrap:pretty}
+.xt-firmware__description{font-size:14px;line-height:1.5;margin:10px 0 9px;text-wrap:pretty;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 .xt-firmware__tags{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:0}
 .xt-firmware__tags li{border:1px solid var(--xt-line);border-radius:6px;padding:4px 8px;font-size:12px;line-height:1.4}
 .xt-firmware__models{margin-top:11px}.xt-firmware__models strong{display:block;font-size:11px;line-height:1.3;letter-spacing:.08em;text-transform:uppercase;color:#3d3a36}.xt-firmware__models ul{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:6px 0 0;padding:0}.xt-firmware__models li{padding:3px 7px;border-radius:5px;background:#eeece6;color:#36332f;font-size:11px;line-height:1.4}
