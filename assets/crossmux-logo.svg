@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CrossMux">
+  <!-- "Mono X": a bold square-cut X (Cross / brand initial) with a knocked-out
+       diamond at its centre (the crosspoint), cream on a terracotta tile. -->
+  <rect width="64" height="64" rx="15" fill="#a8502f" />
+  <g stroke="#faf0ea" stroke-width="9.5" stroke-linecap="butt">
+    <line x1="17" y1="17" x2="47" y2="47" />
+    <line x1="47" y1="17" x2="17" y2="47" />
+  </g>
+  <rect x="27" y="27" width="10" height="10" rx="1.5" fill="#a8502f" transform="rotate(45 32 32)" />
+</svg>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>v1.0-官网-第三方固件推荐 Demo</title>
+  <link rel="icon" href="assets/xteink-logo.png">
+  <link rel="stylesheet" href="section.css?v=partner-application">
+</head>
+<body>
+<!-- 已确认：仅在国际官网顶部导航展示 Partner Tab，切换后在导航下方直接显示指引和固件列表；首批 CrossPoint。
+     Demo 统一展示 CrossPoint 和 CrossMux，正式上线范围以需求文档为准。
+     Partner 位于 Explore 之后、语言切换之前。
+     适配范围以项目说明为准，不把开发者机型支持声明当作全量可刷承诺。
+     图片为 CrossPoint 官网公开展示素材，不是本次制作的固件界面。 -->
+<div class="xt-announcement">SAVE 15% ON X3 ONLY TODAY →</div>
+<header class="xt-nav">
+  <div class="xt-brand" aria-label="XTEINK">XTE<span>i</span>NK</div>
+  <nav class="xt-nav__links" aria-label="Main navigation"><a href="#">Home</a><a href="#">Products</a><a href="#">Accessories</a><a href="#">Share &amp; Earn</a><a href="#">Reviews</a><a href="#">Support</a><a href="#">Brand</a><a href="#">Explore</a><a class="is-active" href="#third-party-firmware" aria-current="page">Partner</a></nav>
+  <a class="xt-nav__mobile-partner" href="#third-party-firmware" aria-current="page">Partner</a>
+  <div class="xt-nav__language">English⌄</div>
+</header>
+<main>
+  <section class="xt-firmware" id="third-party-firmware" aria-labelledby="firmware-heading">
+    <h1 class="xt-firmware__sr">官网-第三方固件推荐</h1>
+    <div class="xt-firmware__intro">
+      <h2 class="xt-firmware__headline" id="firmware-heading">Explore the XTEINK Ecosystem<span aria-hidden="true">.</span></h2>
+      <p class="xt-firmware__lead">Discover community-built firmware and projects that expand what your XTEINK device can do.</p>
+      <div class="xt-firmware__apply">
+        <span>Become a Partner</span>
+        <a href="https://lanestar.feishu.cn/share/base/form/shrcngdFYF0LjCdyb7B7qJFNkdt" target="_blank" rel="noopener noreferrer">Submit Your Project <span aria-hidden="true">↗</span><span class="xt-firmware__sr"> (opens in a new window)</span></a>
+      </div>
+    </div>
+    <aside class="xt-firmware__notice" aria-label="Third-party firmware notice">
+      <span class="xt-firmware__notice-mark" aria-hidden="true">!</span>
+      <p><strong>Before you proceed:</strong> XTEINK only confirms that each listed project intends to support the specific XTEINK models it identifies. XTEINK does not guarantee the firmware’s features, stability, security, or actual performance. Flashing firmware may cause device issues or data loss. Please read the project documentation carefully, and proceed with caution if you are unfamiliar with flashing.</p>
+    </aside>
+    <div class="xt-firmware__list" id="firmware-list">
+    <article class="xt-firmware__card" aria-labelledby="crosspoint-name">
+      <div class="xt-firmware__visual">
+        <img class="xt-firmware__preview" src="assets/crosspoint-preview.png" alt="CrossPoint project preview showing its reading interface" width="1200" height="630">
+      </div>
+      <div class="xt-firmware__content">
+        <div class="xt-firmware__identity">
+          <img src="assets/crosspoint-icon.png" alt="" width="32" height="32">
+          <h2 id="crosspoint-name">CrossPoint</h2>
+        </div>
+        <p class="xt-firmware__byline">Developed and maintained by the CrossPoint open-source community</p>
+        <p class="xt-firmware__description">Open-source reading firmware with EPUB support, custom fonts, and wireless book transfer.</p>
+        <ul class="xt-firmware__tags" aria-label="Key features">
+          <li>EPUB layout</li><li>Custom fonts</li><li>Wireless transfer</li>
+        </ul>
+        <div class="xt-firmware__models" aria-label="Supported models">
+          <strong>Supported Models</strong>
+          <ul><li>X3</li><li>X4</li><li>X4 Pro</li><li>X4 Classic</li></ul>
+        </div>
+        <p class="xt-firmware__compatibility">Usage requirements may vary. Refer to the project documentation.</p>
+        <div class="xt-firmware__actions">
+          <a class="xt-firmware__button xt-firmware__button--primary" href="https://crosspointreader.com/" target="_blank" rel="noopener noreferrer">Learn more<span aria-hidden="true">↗</span><span class="xt-firmware__sr"> (opens in a new window)</span></a>
+        </div>
+      </div>
+    </article>
+    <article class="xt-firmware__card" aria-labelledby="crossmux-name" id="crossmux-card">
+      <div class="xt-firmware__visual">
+        <img class="xt-firmware__preview xt-firmware__preview--photo" src="assets/crossmux-preview.jpg" alt="CrossMux project preview running on an XTEINK reader" loading="lazy">
+      </div>
+      <div class="xt-firmware__content">
+        <div class="xt-firmware__identity">
+          <img src="assets/crossmux-logo.svg" alt="" width="32" height="32">
+          <h2 id="crossmux-name">CrossMux</h2>
+        </div>
+        <p class="xt-firmware__byline">Developed and maintained by 0x1abin and the open-source community</p>
+        <p class="xt-firmware__description">Community reading firmware with Chinese support, lightweight apps, and reading statistics.</p>
+        <ul class="xt-firmware__tags" aria-label="Key features">
+          <li>Chinese reading</li><li>Lightweight apps</li><li>Reading statistics</li>
+        </ul>
+        <div class="xt-firmware__models" aria-label="Supported models">
+          <strong>Supported Models</strong>
+          <ul><li>X3 · Stable</li><li>X4 · Stable</li><li>X4 Pro · Nightly</li></ul>
+        </div>
+        <p class="xt-firmware__compatibility">Usage requirements may vary. Refer to the project documentation.</p>
+        <div class="xt-firmware__actions">
+          <a class="xt-firmware__button xt-firmware__button--primary" href="https://crossmux.cn/" target="_blank" rel="noopener noreferrer">Learn more<span aria-hidden="true">↗</span><span class="xt-firmware__sr"> (opens in a new window)</span></a>
+        </div>
+      </div>
+    </article>
+    <article class="xt-firmware__card xt-firmware__card--placeholder" aria-labelledby="placeholder-a-name">
+      <div class="xt-firmware__visual"><div class="xt-firmware__visual-placeholder">Project preview</div></div>
+      <div class="xt-firmware__content">
+        <div class="xt-firmware__identity"><span class="xt-firmware__icon-placeholder" aria-hidden="true"></span><h2 id="placeholder-a-name">Sample Project A</h2></div>
+        <p class="xt-firmware__byline">Demo placeholder — not an official recommendation</p>
+        <p class="xt-firmware__description">Project information will appear here after third-party submission and XTEINK review.</p>
+        <ul class="xt-firmware__tags" aria-label="Key features"><li>Feature tag</li><li>Feature tag</li></ul>
+        <div class="xt-firmware__models" aria-label="Supported models"><strong>Supported Models</strong><ul><li>To be confirmed</li></ul></div>
+        <p class="xt-firmware__compatibility">Usage requirements may vary. Refer to the project documentation.</p>
+        <div class="xt-firmware__actions"><span class="xt-firmware__button xt-firmware__button--disabled" aria-disabled="true">Learn more<span aria-hidden="true">↗</span></span></div>
+      </div>
+    </article>
+    <article class="xt-firmware__card xt-firmware__card--placeholder" aria-labelledby="placeholder-b-name">
+      <div class="xt-firmware__visual"><div class="xt-firmware__visual-placeholder">Project preview</div></div>
+      <div class="xt-firmware__content">
+        <div class="xt-firmware__identity"><span class="xt-firmware__icon-placeholder" aria-hidden="true"></span><h2 id="placeholder-b-name">Sample Project B</h2></div>
+        <p class="xt-firmware__byline">Demo placeholder — not an official recommendation</p>
+        <p class="xt-firmware__description">Future projects will use the same fields and card structure without changing the list layout.</p>
+        <ul class="xt-firmware__tags" aria-label="Key features"><li>Feature tag</li><li>Feature tag</li></ul>
+        <div class="xt-firmware__models" aria-label="Supported models"><strong>Supported Models</strong><ul><li>To be confirmed</li></ul></div>
+        <p class="xt-firmware__compatibility">Usage requirements may vary. Refer to the project documentation.</p>
+        <div class="xt-firmware__actions"><span class="xt-firmware__button xt-firmware__button--disabled" aria-disabled="true">Learn more<span aria-hidden="true">↗</span></span></div>
+      </div>
+    </article>
+    </div>
+    <p class="xt-firmware__note">These projects are independently developed and maintained by third-party communities. Refer to each project’s documentation for supported models and flashing requirements.</p>
+  </section>
+</main>
+</body>
+</html>
